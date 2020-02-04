@@ -9,13 +9,20 @@ export const dateFormat = 'DD/MM/YYYY';
 export default createMuiTheme({
   palette: {
     primary: {
-      ...purple,
-      main: purple[800],
+      light: '#ab4eff',
+      main: '#7413dc',
+      dark: '#3800a9',
+      contrastText: '#fff',
     },
-    secondary: teal,
+    secondary: {
+      light: '#57d9c4',
+      main: '#00a794',
+      dark: '#007766',
+      contrastText: '#000',
+    },
     error: red,
     muted: {
-      '200': purple[200],
+      '200': '#ab4eff',
     },
     success: {
       '500': green[500],
