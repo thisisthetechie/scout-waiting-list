@@ -20,12 +20,12 @@ export default createMuiTheme({
       dark: '#007766',
       contrastText: '#000',
     },
-    error: red,
+    error: '#E22E12',
     muted: {
       '200': '#ab4eff',
     },
     success: {
-      '500': green[500],
+      '500': '#23A950',
     },
     contrastThreshold: 3,
     tonalOffset: 0.2,
@@ -36,3 +36,5 @@ export default createMuiTheme({
   },
   dateFormat,
 });
+
+
